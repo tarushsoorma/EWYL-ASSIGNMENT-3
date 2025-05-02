@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EWYL ASSIGNMENT</title>
+</head>
+<body style="text-align: center;">
+    <h2>Registration Form</h2>
+    
+    <form style="display: inline-block; text-align: left;">
+        <div>
+            <b>Username:</b><br>
+            <input type="text" name="username">
+        </div>
+        
+        <div>
+            <b>Name:</b><br>
+            <input type="text" name="name">
+        </div>
+        
+        <div>
+            <b>Password:</b><br>
+            <input type="password" name="password" id="password">
+            <input type="checkbox" onclick="document.getElementById('password').type = this.checked ? 'text' : 'password'">
+            <label>Show Password</label>
+        </div>
+        
+        <div>
+            <br>
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
